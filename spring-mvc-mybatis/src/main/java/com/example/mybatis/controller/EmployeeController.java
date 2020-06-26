@@ -25,15 +25,6 @@ public class EmployeeController {
         ModelAndView modelAndView = new ModelAndView("list-employees");
         modelAndView.addObject("listEmployees", employeeMapper.getAllEmployees());
         List<Employee> employees = employeeMapper.getAllEmployees();
-        for (Employee employee: employees){
-            System.out.println(employee.getId());
-            System.out.println(employee.getFullname());
-            System.out.println(employee.getEmail());
-            System.out.println(employee.getGender());
-            System.out.println(employee.getCountry());
-            System.out.println(employee.getAddress());
-            System.out.println(employee.getHobbies());
-        }
         return modelAndView;
     }
 
