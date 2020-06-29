@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-Create Post
+Add Employee
 <form:form action="save" method="post" modelAttribute="employee">
 
     <table cellpadding="5" border="1" >
